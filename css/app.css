@@ -1,42 +1,43 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-ol, ul{
+ol,
+ul {
     list-style: none;
 }
-html{
+
+html {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
 }
 
-h1{
+h1 {
     font-weight: 700;
 }
 
-body{
+body {
     background-color: rgb(239, 239, 240);
 }
 
-.page-name{
+.page-name {
     display: inline-block;
     vertical-align: middle;
-      
+
 }
 
-.logo{
+.logo {
     vertical-align: middle;
 }
 
-header .container-int{
-  padding: 15px 30px;
-  background-color: #ffffff;
+header .container-int {
+    padding: 15px 30px;
+    background-color: #ffffff;
 }
 
-.container{
+.container {
     max-width: 900px;
     margin: auto;
     background-color: #ffffff;
@@ -44,16 +45,17 @@ header .container-int{
 
 }
 
-nav{
+nav {
     margin-top: 50px;
     margin-bottom: 3px;
 }
 
-nav .nav-bar{
+nav .nav-bar {
     padding-bottom: 10px;
 }
 
-.button1, .button2{
+.button1,
+.button2 {
     color: grey;
     background-color: #ffffff;
     font-size: 20px;
@@ -63,68 +65,77 @@ nav .nav-bar{
     border: 2px solid grey;
 }
 
-.button1:active, .button2:active {
-        background-color: lightskyblue;
-        color: #ffffff;
-        border: lightskyblue;  
+.button1:active,
+.button2:active {
+    background-color: lightskyblue;
+    color: #ffffff;
+    border: 2px solid lightskyblue;
 }
 
-.button1:hover, .button2:hover{
-        box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24);
-  }
 
-.status, .task-name, .task-type{
+.button1:hover,
+.button2:hover {
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.24);
+}
+
+.status,
+.task-name,
+.task-type {
     display: inline-block;
 }
 
-.task-type{
+.task-type {
     padding: 5px 10px;
     border-radius: 15px;
     color: #ffffff;
 }
-.edit{
+
+.edit {
     background-color: lightskyblue;
 }
-.q1{
+
+.q1 {
     background-color: rgb(136, 90, 136);
 }
 
-.recruiting{
+.recruiting {
     background-color: rgb(181, 219, 181);
 }
 
-.mobile{
+.mobile {
     background-color: orange;
 }
 
-.website{
+.website {
     background-color: rgb(190, 120, 199);
 }
 
-.sales{
+.sales {
     background-color: rgb(160, 194, 109);
 }
 
-.task-rule{
+.task-rule {
     margin: 8px;
 }
 
-.task-section{
+.task-section {
     padding: 5px 10px;
 }
 
-.status{
+.status {
     font-weight: bold;
     border: 2px solid;
     padding: 0 5px 2px;
     border-radius: 50%;
 
 }
-.positive{
+
+.positive {
     color: green;
     border-color: green;
 }
-.negative{
+
+.negative {
     color: red;
     border-color: red;
 }
