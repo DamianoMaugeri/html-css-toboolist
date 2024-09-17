@@ -63,3 +63,59 @@ nav .nav-bar{
 .button1:hover, .button2:hover{
         box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24);
   }
+
+.status, .task-name, .task-type{
+    display: inline-block;
+}
+
+.task-type{
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: #ffffff;
+}
+.edit{
+    background-color: lightskyblue;
+}
+.q1{
+    background-color: rgb(136, 90, 136);
+}
+
+.recruiting{
+    background-color: rgb(181, 219, 181);
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.website{
+    background-color: rgb(190, 120, 199);
+}
+
+.sales{
+    background-color: rgb(160, 194, 109);
+}
+
+.task-rule{
+    margin: 8px;
+}
+
+.task-section{
+    padding: 5px 10px;
+}
+
+.status{
+    font-weight: bold;
+    border: 2px solid;
+    padding: 0 5px 2px;
+    border-radius: 50%;
+
+}
+.positive{
+    color: green;
+    border-color: green;
+}
+.negative{
+    color: red;
+    border-color: red;
+}
